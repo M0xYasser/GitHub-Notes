@@ -28,3 +28,15 @@ to make the actual changes I want to make on my project. These changes are made 
   > **A Commit is Git's way of adding a change to your project.**
   
 **These Commits are recorded in history so you can always go back and review or analyze these past Commits to a project.**
+
+### Make "Git" store the username and password and it will never ask for them.
+
+```git
+git config --global credential.helper store
+```
+
+### Save the username and password for a session (cache it);
+
+```git
+git config --global credential.helper cache
+```
