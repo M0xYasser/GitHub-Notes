@@ -29,7 +29,7 @@ to make the actual changes I want to make on my project. These changes are made 
   
 **These Commits are recorded in history so you can always go back and review or analyze these past Commits to a project.**
 
-## 1.Install Git on Linux
+## 1. Install Git on Linux
 
 ### From your shell, install Git using apt-get:
 
@@ -39,13 +39,13 @@ sudo apt-get update
 ```shell
 sudo apt-get install git
 ```
-### 2.Verify the installation was successful by typing git --version:
+### 2. Verify the installation was successful by typing git --version:
 ```shell
 git --version
 ```
 > git version 2.25.1
 
-### 3.Configure your Git username and email using the following commands.
+### 3. Configure your Git username and email using the following commands.
 > These details will be associated with any commits that you create:
 
 ```shell
