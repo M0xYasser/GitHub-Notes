@@ -66,3 +66,7 @@ git config --global credential.helper store
 ```git
 git config --global credential.helper cache
 ```
+## Git Clone
+
+```git
+git clone REPO_URL
