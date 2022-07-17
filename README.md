@@ -77,6 +77,12 @@ git config --global credential.helper cache
 git clone REPO_URL
 ```
 
+## Status
+
+```shell
+git status
+```
+
 ## Adding a Working Directory to Staging Area
 
 ```shell
