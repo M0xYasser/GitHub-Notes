@@ -76,3 +76,13 @@ git config --global credential.helper cache
 ```shell
 git clone REPO_URL
 ```
+
+## Adding a Working Directory to Staging Area
+
+```shell
+git add FILE_NAME
+```
+**OR To add all file use * :**
+```shell
+git add *
+```
