@@ -3,6 +3,7 @@
 ## GIT
 
 **Git is a version control system also known as a **VCS**.**
+
   > **VCS** is basically some software designed to record changes made to a file or set of files overtime. 
  
 **This gives you the ability to revert or recall changes to a file or set of files after you've made them.**
@@ -29,9 +30,9 @@ to make the actual changes I want to make on my project. These changes are made 
   
 **These Commits are recorded in history so you can always go back and review or analyze these past Commits to a project.**
 
-## 1. Install Git on Linux
+## Install Git on Linux
 
-### From your shell, install Git using apt-get:
+### 1. From your shell, install Git using apt-get:
 
 ```shell
 sudo apt-get update
@@ -39,13 +40,16 @@ sudo apt-get update
 ```shell
 sudo apt-get install git
 ```
+
 ### 2. Verify the installation was successful by typing git --version:
+
 ```shell
 git --version
 ```
 > git version 2.25.1
 
 ### 3. Configure your Git username and email using the following commands.
+
 > These details will be associated with any commits that you create:
 
 ```shell
@@ -55,18 +59,20 @@ git config --global user.name "M0xYasser"
 git config --global user.email "midyass17@gmail.com"
 ```
 
-### Make "Git" store the username and password and it will never ask for them.
+### 4. Make "Git" store the username and password and it will never ask for them.
 
-```git
+```shell
 git config --global credential.helper store
 ```
 
-### Save the username and password for a session (cache it);
+### 5. Save the username and password for a session (cache it);
 
-```git
+```shell
 git config --global credential.helper cache
 ```
-## Git Clone
 
-```git
+## Cloning a Git Repository
+
+```shell
 git clone REPO_URL
+```
