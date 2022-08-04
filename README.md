@@ -76,7 +76,17 @@ git config --global credential.helper cache
 ```shell
 git clone REPO_URL
 ```
+## push changes to remote
 
+```shell
+git add *
+```
+```shell
+git commit -m "message"
+```
+```shell
+git push
+```
 ## Status
 
 ```shell
